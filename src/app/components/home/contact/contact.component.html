@@ -1,0 +1,50 @@
+<div class="text-center text-3xl sm:text-7xl sm:mb-12 mb-8 font-extrabold sm:top-28 top-16 relative">Contact</div>
+<section class="py-24 lg:py-36 bg-black overflow-hidden" id="contact">
+    <div class="container px-4 mx-auto">
+      <div class="flex flex-wrap -m-8">
+        <div class="w-full md:w-1/2 p-8 sm:top-16 sm:left-14 relative">
+          <div class="md:max-w-md">
+            <div class=" flex items-start mb-8 mx-auto justify-start rounded-xl">
+                <span class=" text-3xl relative  sm:text-5xl font-semibold whitespace-nowrap text-indigo-500"><i class="fa-solid fa-code" style="color: #ffffff;"></i><span class="ml-2">Developer</span><span class="text-green-700">.</span><span class="text-indigo-600">__</span></span>
+            </div>
+            <h3 class="mb-6 font-semibold text-xl sm:text-3xl" style="letter-spacing: -0.5px;">&ldquo;To contact me, fill in the right section and send. &amp; I will respond within 24 hours!&rdquo;</h3>
+            <h4 class="font-semibold text-xl sm:text-2xl tracking-tight mb-5">Social Media</h4>
+            <span class="mx-auto space-x-5"><a href="https://www.linkedin.com/in/ufuk-kuru-frontend/?locale=en_US"><i class="fa-brands fa-linkedin fa-2xl text-blue-500"></i></a><a href="https://github.com/Ufukkuru"><i class="fa-brands fa-github fa-2xl text-gray-800"></i></a><a href="#"><i class="fa-brands fa-instagram fa-2xl text-pink-800"></i></a><a href="#"><i class="fa-brands fa-twitter fa-2xl text-blue-600"></i></a></span>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 p-8">
+          <form class="flex flex-wrap -m-3" (ngSubmit)="sendEmail($event)">
+            <div class="w-full md:w-1/2 p-3">
+              <label class="block">
+                <input class="px-4 py-4 w-full text-gray-700 tracking-tight placeholder-gray-800 outline-none border border-gray-700  rounded-lg transition duration-200" id="contactInput1-1" type="text" name="firstName" #firstName  placeholder="First Name">
+              </label>
+            </div>
+            <div class="w-full md:w-1/2 p-3">
+              <label class="block">
+                <input class="px-4 py-4 w-full text-gray-700 tracking-tight placeholder-gray-800 outline-none border border-gray-700  rounded-lg transition duration-200" id="contactInput1-2" type="text" name="lastName" #lastName  placeholder="Last Name">
+              </label>
+            </div>
+            <div class="w-full md:w-1/2 p-3">
+              <label class="block">
+                <input class="px-4 py-4 w-full text-gray-700 tracking-tight placeholder-gray-800 outline-none border border-gray-700  rounded-lg transition duration-200" id="contactInput1-3" type="email" name="email" #email  placeholder="Email Address">
+              </label>
+            </div>
+            <div class="w-full md:w-1/2 p-3">
+              <label class="block">
+                <input class="px-4 py-4 w-full text-gray-700 tracking-tight placeholder-gray-800 outline-none border border-gray-700  rounded-lg transition duration-200" id="contactInput1-4" type="number" name="number" #number   placeholder="Phone Number">
+              </label>
+            </div>
+            <div class="w-full p-3">
+              <label class="block">
+                <textarea class="px-4 py-4 w-full text-gray-700 tracking-tight placeholder-gray-700 outline-none border border-gray-700 h-52 rounded-lg transition duration-200" id="contactInput1-5" type="text" name="textarea" #textarea  placeholder="Message (optinal)"></textarea>
+              </label>
+            </div>
+            <div class="w-full p-3">
+              <button class="inline-block mb-4 px-5 py-4 w-full text-white text-center font-semibold tracking-tight bg-blue-700 rounded-lg hover:bg-blue-800 transition duration-200" type="submit">Send</button>
+              <span class="text-sm text-gray-600 tracking-tight"></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
