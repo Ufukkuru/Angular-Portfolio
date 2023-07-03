@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.0.0",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch",
+    "tailwind": "npx tailwindcss -i ./src/styles.css -o ./dist/output.css --watch",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
